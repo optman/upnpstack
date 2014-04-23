@@ -1,0 +1,172 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Intel</title>
+</head>
+
+<body>
+
+<h1>Disclaimers</h1>
+<p><font size="2">INTEL CORPORATION MAKES NO WARRANTY OF ANY KIND WITH REGARD TO 
+THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. INTEL CORPORATION ASSUMES 
+NO RESPONSIBILITY FOR ANY ERRORS THAT MAY APPEAR IN THIS DOCUMENT. INTEL 
+CORPORATION MAKES NO COMMITMENT TO UPDATE NOR TO KEEP CURRENT THE INFORMATION 
+CONTAINED IN THIS DOCUMENT. THIS SPECIFICATION IS COPYRIGHTED BY AND SHALL 
+REMAIN THE PROPERTY OF INTEL CORPORATION. NO LICENSE, EXPRESS OR IMPLIED, BY 
+ESTOPPEL OR OTHERWISE TO ANY INTELLECTUAL PROPERTY RIGHTS IS GRANTED HEREIN. 
+INTEL DISCLAIMS ALL LIABILITY, INCLUDING LIABILITY FOR INFRINGEMENT OF ANY 
+PROPRIETARY RIGHTS, RELATING TO IMPLEMENTATION OF INFORMATION IN THIS 
+SPECIFICATION. INTEL DOES NOT WARRANT OR REPRESENT THAT SUCH IMPLEMENTATIONS 
+WILL NOT INFRINGE SUCH RIGHTS. NO PART OF THIS DOCUMENT MAY BE COPIED OR 
+REPRODUCED IN ANY FORM OR BY ANY MEANS WITHOUT PRIOR WRITTEN CONSENT OF INTEL 
+CORPORATION. INTEL CORPORATION RETAINS THE RIGHT TO MAKE CHANGES TO THESE 
+SPECIFICATIONS AT ANY TIME, WITHOUT NOTICE. </font></p>
+<p><font size="2">Legal Notices Intel software products are copyrighted by and 
+shall remain the property of Intel Corporation. Use, duplication or disclosure 
+is subject to restrictions stated in Intel's Software License Agreement, or in 
+the case of software delivered to the government, in accordance with the 
+software license agreement as defined in FAR 52.227-7013. </font></p>
+<p><font size="2">The Intel logo is a registered trademark of Intel Corporation.</font></p>
+<p><font size="2">Other brands and names are the property of their respective 
+owners.</font></p>
+
+<p><font size="2">Intel copyright 2002.</font></p>
+
+<h1><b>Intel's UPnP Tools Package</b></h1>
+
+<p>This package is provided as-is, without support and without any guaranties. It 
+is not an official Intel product, so please don't call Intel support. We 
+appreciate feedback on the tools, especially in relation to interoperability 
+issues, but our lab is not staffed to respond to support questions. Many of the 
+tools are work in progress. For example: Some menus selections may not work or 
+have limitations, etc...<br>
+<br>
+UPnP Tools .EXE's are not Win32 applications, they are .NET binaries and require 
+Microsoft's .NET Framework to be installed. It is a 20 megabyte package 
+available on the Microsoft Update Web site or on the MSDN web site at:<br>
+<br>
+<a href="http://msdn.microsoft.com/downloads/default.asp?URL=/downloads/sample.asp?url=/msdn-files/027/001/829/msdncompositedoc.xml">
+http://msdn.microsoft.com/downloads/default.asp?URL=/downloads/sample.asp?url=/msdn-files/027/001/829/msdncompositedoc.xml</a><br>
+<br>
+UPnP Tools have been known to work on Windows XP and Windows NT4, they should 
+also work on Windows98 and higher, but we did not conduct any testing on these 
+platforms. Service Pack 6 is required when installing the .NET framework on NT4.</p>
+<hr>
+
+<p><b>Contact Information</b></p>
+
+<p>Intel is always looking for feedback, especially in regards to interoperation 
+issues. Intel is also working on code generation authoring tools that are 
+available for trial. To submit feedback or receive a trial of the Intel UPnP 
+code generation tools contact:</p>
+
+<p>&nbsp;&nbsp;&nbsp; Ylian Saint-Hilaire, Senior Architect<br>
+&nbsp;&nbsp;&nbsp; <a href="mailto:ylian.saint-hilaire@intel.com">
+ylian.saint-hilaire@intel.com</a></p>
+
+<p>&nbsp;&nbsp;&nbsp; Nelson Kidd, UPnP AV Expert<br>
+&nbsp;&nbsp;&nbsp; <a href="mailto:nelson.kidd@intel.com">nelson.kidd@intel.com</a></p>
+
+<p>&nbsp;&nbsp;&nbsp; Bryan Roe, UPnP &amp; UPnP AV Expert<br>
+&nbsp;&nbsp;&nbsp; <a href="mailto:bryan.y.roe@intel.com">bryan.y.roe@intel.com</a></p>
+
+<p>&nbsp;&nbsp;&nbsp; Pronay Dutta, UPnP Validation Expert<br>
+&nbsp;&nbsp;&nbsp; <a href="mailto:bryan.y.roe@intel.com">pronay.dutta@intel.com</a></p>
+<hr>
+
+<p><b>What new in the release?</b></p>
+<ul>
+  <li>AV Control Points (AV Wizard and AV Controller) now generate Extended M3U 
+  play lists. New menu options to turn this feature off. Note that the AV 
+  Renderer uses the Media Player ActiveX control that does not support 
+  Extended-M3U.</li>
+  <li>New debugging interface for all the tools. This is generally located in 
+  the Help menu of the tools.</li>
+  <li>Fixed many problems: AV Renderer event escaping, handling invalid SID 
+  events and much more.</li>
+  <li>PrepareForConnection is now removed by default in the AV Renderer.</li>
+  <li>Added a new PocketPC Media Renderer tool in the &quot;Micro Tools&quot; directory.</li>
+  <li>New help file attached to all of the Tools.</li>
+</ul>
+<hr>
+<p><b>Intel Device Spy</b> - is the premier Universal Plug &amp; Play Universal 
+Control Point (UCP). It allows UPnP device detection, display of detailed 
+information on every aspect of a UPnP device, action invocation, event 
+monitoring and error handling. The application is built with a solid, easy to 
+use, user interface and leverages Intel's Universal Plug &amp; Play CLR stack.</p>
+<p><b>Intel Service Author</b> - is an easy to use SCPD XML authoring tool. 
+Creating and maintaining UPnP services is now extremely simple, our SCDP 
+parser will also generate and validate the document for compliance. Service 
+Author includes a C# code generator, this feature is not useful 
+  outside of Intel.</p>
+<p><b>Intel Device Sniffer</b> - monitors all UPnP broadcast traffic on the 
+network. Solving SSDP interoperation problems has never been easier. The 
+application can filter packets and issue SSDP searches, very useful for  plug fests events. </p>
+<p><b>Intel Device Validator</b> - is a battery of tests that can be applied to 
+any UPnP device. Validator includes tests that apply to all devices, and AV 
+specific tests for AV Renderers and AV Content Directory Servers (CDS).</p>
+<p><b>Intel Device Scriptor</b> - an easy to use UPnP scripting application. 
+Allows the user to quickly build scenario scripts and run them against UPnP 
+devices.</p>
+<p><b>Intel AV Media Controller</b> - is a fully features UPnP AV Control 
+Point. It is equivalent to Device Spy for AV. AV Media Controller looks for all renderers and content directories on the network, it virtualizes all of the 
+media content for rapid searching, dynamically builds play lists for renderers 
+that support it, supports single and multi-instance renderers and much more. 
+This is the must have, UPnP AV application.</p>
+<p>Additional notes on UPnP Media Controller:</p>
+<ul>
+  <li>Right click on a renderer and select &quot;Renderer Controls&quot; for more renderer 
+  options.</li>
+</ul>
+<p><b>Intel AV Media Server</b> - is complete UPnP AV Content Directory. It 
+uses the file system as a database allowing the user to drag &amp; drop folders for 
+quick sharing of media. Media Server's user interface also allows tracking of 
+downloaded files.</p>
+<p>Additional notes on&nbsp; AV Media Server:</p>
+<ul>
+  <li>You can drag &amp; drop folders onto the user interface or use the &quot;add shared 
+  folder&quot; menu option.</li>
+  <li>MP3 ID3 version 1 tags, GIF and JPEG metadata is supported. Other file 
+  types will show up with generic metadata.</li>
+</ul>
+<p><b>Intel AV Media Renderer</b> - a fully features UPnP AV renderer. Supports 
+multi-instance, play lists support, complete moderated eventing, track seeking support, 
+position seeking support and much more.</p>
+<p>Additional notes on AV Media Renderer:</p>
+<ul>
+  <li>Run AV Media Renderer and select the features and MIME types the renderer will 
+  support. Once everything is setup, select &quot;Start Renderer&quot; from the File menu.</li>
+  <li>Many UPnP properties including NextContentURI and many display attributes 
+  don't have any effect, but are left for testing purposes.</li>
+</ul>
+<p><b>Intel AV Wizard</b> - is an UPnP AV control point for playing locally 
+stored content to available AV renderers. The goal if to make this application 
+integrate well within Windows XP as a shell extension. Select a renderer and 
+drag &amp; drop a file into AV Wizard to start playing.</p>
+<p><b>Intel Network Light</b> - Also included in the package is a simple UPnP 
+home automation light that can be used to demonstrate the basic abilities of 
+both Device Spy and Service Author. </p>
+
+<p><b>Intel Device Relay</b> - Mirrors UPnP Device onto a different network. 
+Start Device Relay on two different computers and use a WAN interface to connect 
+one to the other. UPnP Relay will automatically mirror all other devices from 
+one network on to the other. Relayed devices will appear with a star (*) in 
+front of their names. SSDP messages are handled locally by the relay, events and 
+action invocations are forwarded to the source relay using SOAP.</p>
+
+<hr>
+<p><font size="4"><b>Internationalization</b></font></p>
+<p>All tools should work with large fonts and with any display DPI settings. 
+Please report any problems.</p>
+<p>Intel Device Spy and Network Light as been localized to French. It will run 
+in French on a French computer. Users can override the language setting with the &quot;-fr&quot; 
+(French) and &quot;-en&quot; (English) command line parameter.</p>
+
+</body>
+
+</html>

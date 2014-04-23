@@ -1,0 +1,49 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=CRemoteIOControlDlg
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "Remote IO Control.h"
+
+ClassCount=2
+Class1=CRemoteIOControlApp
+Class2=CRemoteIOControlDlg
+
+ResourceCount=4
+Resource2=IDR_MAINFRAME
+Resource3=IDD_REMOTEIOCONTROL_DIALOG
+Resource4=IDR_MAINMENU
+
+[CLS:CRemoteIOControlApp]
+Type=0
+HeaderFile=Remote IO Control.h
+ImplementationFile=Remote IO Control.cpp
+Filter=N
+
+[CLS:CRemoteIOControlDlg]
+Type=0
+HeaderFile=Remote IO ControlDlg.h
+ImplementationFile=Remote IO ControlDlg.cpp
+Filter=D
+BaseClass=CDialog
+VirtualFilter=dWC
+LastObject=ID_FILE_EXIT
+
+
+[DLG:IDD_REMOTEIOCONTROL_DIALOG]
+Type=1
+Class=CRemoteIOControlDlg
+ControlCount=4
+Control1=IDC_DEVICETREE,SysTreeView32,1350631427
+Control2=IDC_STATIC1,static,1342308352
+Control3=IDC_STATIC2,static,1342308352
+Control4=IDC_STATIC3,static,1342308352
+
+[MNU:IDR_MAINMENU]
+Type=1
+Class=?
+Command1=ID_FILE_EXIT
+CommandCount=1
+

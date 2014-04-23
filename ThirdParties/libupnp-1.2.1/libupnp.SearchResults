@@ -1,0 +1,12 @@
+---- gSsdpReqSocket Matches (11 in 3 files) ----
+Ssdp_ctrlpt.c (upnp\src\ssdp):    FD_SET( gSsdpReqSocket, &wrSet );
+Ssdp_ctrlpt.c (upnp\src\ssdp):    setsockopt( gSsdpReqSocket, IPPROTO_IP, IP_MULTICAST_IF,
+Ssdp_ctrlpt.c (upnp\src\ssdp):    if( select( gSsdpReqSocket + 1, NULL, &wrSet, NULL, NULL )
+Ssdp_ctrlpt.c (upnp\src\ssdp):shutdown( gSsdpReqSocket, SD_BOTH );
+Ssdp_ctrlpt.c (upnp\src\ssdp):        UpnpCloseSocket( gSsdpReqSocket );
+Ssdp_ctrlpt.c (upnp\src\ssdp):    } else if( FD_ISSET( gSsdpReqSocket, &wrSet ) ) {
+Ssdp_ctrlpt.c (upnp\src\ssdp):            sendto( gSsdpReqSocket, ReqBuf, strlen( ReqBuf ), 0,
+Ssdp_server.c (upnp\src\ssdp):CLIENTONLY( SOCKET gSsdpReqSocket = 0;
+Ssdp_server.c (upnp\src\ssdp):        if( socket == gSsdpReqSocket ) {
+Ssdp_server.c (upnp\src\ssdp):                Make_Socket_NoBlocking( ssdpReqSock ); gSsdpReqSocket = ssdpReqSock; )  //CLIENTONLY
+Ssdplib.h (upnp\src\inc):CLIENTONLY(extern SOCKET gSsdpReqSocket;);

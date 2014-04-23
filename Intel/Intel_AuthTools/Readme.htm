@@ -1,0 +1,99 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Intel</title>
+</head>
+
+<body>
+
+<h1>Disclaimers</h1>
+<p><font size="2">INTEL CORPORATION MAKES NO WARRANTY OF ANY KIND WITH REGARD TO 
+THIS MATERIAL, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. INTEL CORPORATION ASSUMES 
+NO RESPONSIBILITY FOR ANY ERRORS THAT MAY APPEAR IN THIS DOCUMENT. INTEL 
+CORPORATION MAKES NO COMMITMENT TO UPDATE NOR TO KEEP CURRENT THE INFORMATION 
+CONTAINED IN THIS DOCUMENT. THIS SPECIFICATION IS COPYRIGHTED BY AND SHALL 
+REMAIN THE PROPERTY OF INTEL CORPORATION. NO LICENSE, EXPRESS OR IMPLIED, BY 
+ESTOPPEL OR OTHERWISE TO ANY INTELLECTUAL PROPERTY RIGHTS IS GRANTED HEREIN. 
+INTEL DISCLAIMS ALL LIABILITY, INCLUDING LIABILITY FOR INFRINGEMENT OF ANY 
+PROPRIETARY RIGHTS, RELATING TO IMPLEMENTATION OF INFORMATION IN THIS 
+SPECIFICATION. INTEL DOES NOT WARRANT OR REPRESENT THAT SUCH IMPLEMENTATIONS 
+WILL NOT INFRINGE SUCH RIGHTS. NO PART OF THIS DOCUMENT MAY BE COPIED OR 
+REPRODUCED IN ANY FORM OR BY ANY MEANS WITHOUT PRIOR WRITTEN CONSENT OF INTEL 
+CORPORATION. INTEL CORPORATION RETAINS THE RIGHT TO MAKE CHANGES TO THESE 
+SPECIFICATIONS AT ANY TIME, WITHOUT NOTICE. </font></p>
+<p><font size="2">Legal Notices Intel software products are copyrighted by and 
+shall remain the property of Intel Corporation. Use, duplication or disclosure 
+is subject to restrictions stated in Intel's Software License Agreement, or in 
+the case of software delivered to the government, in accordance with the 
+software license agreement as defined in FAR 52.227-7013. </font></p>
+<p><font size="2">The Intel logo is a registered trademark of Intel Corporation.</font></p>
+<p><font size="2">Other brands and names are the property of their respective 
+owners.</font></p>
+
+<p><font size="2">Intel copyright 2003.</font></p>
+
+<p><b><font size="5">Intel Authoring Tools for UPnP Technologies</font></b></p>
+
+<p>This package is provided as-is, without support and without any guaranties. It 
+is not an official Intel product, so please don't call Intel support. We 
+appreciate feedback on the embedded tools and included source code, especially in relation to interoperability 
+issues. Please provide feedback &amp; bug reports to:
+<a href="mailto:ylian.saint-hilaire@intel.com">ylian.saint-hilaire@intel.com</a> 
+or <a href="mailto:bryan.y.roe@intel.com">bryan.y.roe@intel.com</a> or
+<a href="mailto:nelson.kidd@intel.com">nelson.kidd@intel.com</a>.</p>
+
+<p>To license source code and/or technology contained this package, please contact:
+<a href="mailto:ylian.saint-hilaire@intel.com">ylian.saint-hilaire@intel.com</a></p>
+
+<p>This Intel authoring toolkit allows developers to quickly build highly 
+efficient C device and control point stacks for many platforms including Linux, 
+Microsoft Windows and Microsoft PocketPC. This toolkit includes full source code 
+for AV sample stacks that can be used as starting point for AV solutions, and 
+source code for complete sample applications on various platforms.</p>
+<p>Please refer to the &quot;AuthoringToolsHelp&quot; help file for information about 
+Device Builder, AV Microstacks and Sample Applications.<br>
+<br>
+<b>Embedded Platforms (C)<br>
+</b><br>
+- Extremely compact POSIX-C compliant code <br>
+- Targets Linux, WinCE, Windows, Embedded Windows<br>
+- Very few dependencies, no XML parser<br>
+- Complete inbound type checking<br>
+- Automatic error generation <br>
+- Asynchronous &amp; fragmented action response <br>
+- Support Multi-interface support, Auto-IP hooks <br>
+- Fully UPnP compliant each time it’s generated <br>
+- Automatically generated sample application - compile and run the stack 
+immediately <br>
+<br>
+<b>.NET Framework Platform (C#)</b><br>
+<br>
+- No native code, runs on any .NET host<br>
+- Uses Intel's full featured UPnP stack<br>
+- Full dynamic, multi-network support<br>
+- Bi-directional type checking<br>
+- Fully HTTP/1.1 compliant, Chunked encoding &amp; Pipelining, auto fallback.<br>
+- Fully multi-processor &amp; Hyperthreading enabled<br>
+<br>
+<b>UPnP Security Hooks Support</b><br>
+<br>
+- Security support only works in C, not C# and only Device not Control Point.<br>
+- SOAP fragmented responses are not supported when UPnP security is used<br>
+- Security authentication hooks are not yet implemented into generated 
+Microstacks<br>
+- Default implementation of security will implement a DecryptAndExecute that 
+decodes the requests and loops it back into the Microstack. The response will be 
+sent back thru the DecryptAndExecute response.<br>
+- The Security Flags indicate the type of security and permissions the apply to 
+an action invocation. The two most significant bits indicate privacy and 
+authentication. The other indicate permissions. The least significant built 
+indicated that the caller is a device owner.</p>
+
+</body>
+
+</html>
